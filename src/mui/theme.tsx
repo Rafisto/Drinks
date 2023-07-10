@@ -4,7 +4,7 @@ export const AppTheme = createTheme({
   palette: {
     mode: "dark",
     primary: {
-      main: "#9A3030",
+      main: "#6f00f7",
     },
     secondary: {
       main: "#F2F2F2",
@@ -18,6 +18,6 @@ export const AppTheme = createTheme({
     contrastThreshold: 4.5,
   },
   typography: {
-    fontFamily: "Open Sans",
+    fontFamily: "monospace",
   },
 });

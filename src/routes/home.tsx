@@ -1,7 +1,7 @@
-const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+import Composer from "./composer";
 
-export default Home
+const Home = () => {
+  return <Composer />;
+};
+
+export default Home;

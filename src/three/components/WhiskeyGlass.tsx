@@ -5,12 +5,12 @@ import { GLTFResult } from "../types/GLTFResult";
 export const GlassMaterial = new THREE.MeshPhysicalMaterial({
   color: 0xffffff,
   metalness: 0,
-  roughness: 1,
+  roughness: 0,
   envMapIntensity: 0.9,
   clearcoat: 1,
   transparent: true,
   transmission: 0.95,
-  opacity: 1,
+  opacity: 0.8,
   reflectivity: 0.2,
 });
 
